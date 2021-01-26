@@ -1,0 +1,28 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "Web sockets module that integrates duplex-connection part to Contactame app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "ws",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fastify": "^2.13.1",
+    "fastify-redis": "^3.3.1",
+    "fastify-websocket": "^1.1.2",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.14",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
